@@ -1,0 +1,254 @@
+/* 
+Theme Name: Fundify Child1 
+Description: Child theme for Fundify 
+Author: Astoundify 
+Template: fundify 
+*/
+
+@import url("../fundify/style.css");
+
+
+
+
+
+/* Container
+------------------------------------------------------------------------------*/
+
+.container {
+	/* width: 1140px; many changes are based on this reduction
+		more article style, so not to be full-page width*/
+	width: 1060px;
+	margin: 0 auto;
+}
+
+
+/* Header
+------------------------------------------------------------------------------*/
+
+#header {
+/*	width: 90%;
+	left: 5%;   */
+
+	background: #006476;
+
+}
+
+
+.site-title {
+		text-transform: none;
+	
+}
+
+
+/*   page titles   */
+
+.title {
+	height: 75px;
+	text-align: center;
+}
+
+/*
+.title.pattern-1 {
+	background: url(images/bg_title.png) repeat;
+}
+
+.title.pattern-2 {
+	background: url(images/bg_title_2_.png) repeat;
+}
+
+
+.title.pattern-3 {
+	background: url(images/bg_title_3.png) repeat;
+}
+
+.title.pattern-4 {
+	background: url(images/bg_title_4.png) repeat;
+}
+*/
+
+.title h1 {
+/*	font-family: 'Oswald';
+	font-size: 27px;
+	line-height: 45px;	*/
+	padding: 17px 0 0;
+	text-transform: none;
+	/*color: #515151;
+	letter-spacing: 3px;
+	text-shadow: 0 1px 0 #fff;*/
+}
+
+
+.title h3 {
+	line-height: 38px;
+/*   moves the author's name down in better view on Campaign page */ 
+}
+
+/* Navigation
+------------------------------------------------------------------------------*/
+/*	
+#menu {
+height: 18px;
+	position: absolute;
+	width: 100%;
+		
+  width 95% is for IE, otherwise Login was off screen  
+	
+}
+*/
+
+#menu {
+	height: 18px;
+	position: absolute;
+	width: 1060px;
+	top: 5%;
+	
+	-webkit-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+}
+
+
+#menu .sub-menu {
+	display: none;
+	position: absolute;
+	top: 40px;
+	z-index: 999;
+	background: #8abdc6;
+	color: #222222;
+	border: 2px #4e4e4e;
+	border-style:none solid solid solid;
+	/*border-width: 2px;
+	border: 1px #fff;*/
+	padding: 0px 0;
+}
+
+
+#menu li {
+		padding: 0 10px 0 0;
+
+}
+
+#menu a {
+/*	font-family: 'Oswald'; */
+	font-size: 14px;
+	text-transform: none;
+	word-wrap: break-word;
+	
+	/* button style added */
+	width: 90px;
+	border: 1px; 
+	border-style:none solid;
+	text-align: center;
+	padding: 2px 2px 2px 2px;
+	background-color:#8abdc6;
+	color: #4e4e4e;
+	
+}
+/*	letter-spacing: 1px;
+	color: #878787;
+	height: 40px;
+	display: block;	
+}*/
+
+
+
+/* Content
+------------------------------------------------------------------------------*/
+/* 
+#home-page-featured {
+	background: #4c4c4c;
+	background: #808080;
+	both of these gives this the grey effect 
+}
+*/
+
+#home-page-featured ul {
+	margin: 0 5% 0 5%;
+	height: 100px;
+	overflow: hidden;
+}
+
+#home-page-featured li {
+	float: left;
+}
+
+#home-page-featured img {
+	float: left;
+	position: relative;
+	filter: alpha(opacity=41);
+	opacity: 0.41;
+	width: 100px;
+	height: 100px;
+	/* biggest change is the smaller featured campaign images  */
+}
+
+#home-page-featured h1 {
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	top: 25%;
+	color: #fff;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+#main-content {
+	/* width: 745px;*/
+	width: 685px;
+	float: left;
+}
+#sidebar {
+	/*width: 360px;  */
+	width: 300px;
+	float: right;
+}
+
+/* adjust the size right under the Hero unit
+	(where the "staff picks" and "search" are) */
+.sort-tabs {
+	margin: 0;
+	height: 34px;
+}
+
+/* moves the project group over 60px (more center) 
+	also moves the group up */
+#projects {
+	border-top: 4px double #dbd9d4;
+	padding: 22px 80px 2px;
+	}
+
+.project-details .image {
+	/* width: 745px;*/
+	width: 600px;
+	float: left;
+}
+
+.project-details .right-side {
+/*	width: 300px;  */
+	width: 240px; 
+	float: right;
+	height: 336px;
+	background: #f7f7f7;
+	padding: 30px;
+	position: relative;
+}
+
+
+
+/* Footer
+------------------------------------------------------------------------------*/
+#footer {
+/* moves it closer to the content */
+	padding: 40px 0;
+}
+
+
+#footer h3 {
+		font-size: 20px;	
+}
+
+#footer .footer-widget {
+	margin-right: 20px;
+	width: 210px;
+	float: left;
+}
